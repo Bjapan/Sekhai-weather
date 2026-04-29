@@ -149,6 +149,7 @@ button:hover {
     }
 }
 
+
 /* ===== DESKTOP ===== */
 @media (min-width: 1200px) {
     body {
@@ -156,15 +157,21 @@ button:hover {
     }
 
     .app {
-        max-width: 600px;
-        padding: 40px;
+        max-width: 900px;
+        width: 80%;
+        padding: 50px;
     }
 
     h1 {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .temp {
-        font-size: 3.5rem;
+        font-size: 4rem;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto 20px;
     }
 }
